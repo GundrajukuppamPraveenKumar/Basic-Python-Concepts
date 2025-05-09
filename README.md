@@ -47,3 +47,27 @@ print('Subtraction:', sub)
 print('Multiplication:', mul)
 print('Division:', div)
 
+Task 2: Create a Personalized Greeting
+Problem Statement: Write a Python program that:
+1.  Takes a user's first name and last name as input.
+2.  Concatenates the first name and last name into a full name.
+3.  Prints a personalized greeting message using the full name.
+Expected Output:
+The program should output a greeting like:
+Enter your first name: john
+Enter your second name: doe
+hello, john doe! Welcome to the python program.
+
+solution:
+Task 2: Create a Personalized Greeting
+taking two variables firstName and secondName
+using "input" function for taking input from users
+
+firstName = input('Enter your first name: ')
+secondName = input('Enter your second name: ')
+
+here taking "fulName" as variable and performing concatenation
+for concatenation we are using '+' operator
+
+fulName = firstName + ' ' + secondName + '!'
+print("hello,",fulName,"Welcome to the python program.")
